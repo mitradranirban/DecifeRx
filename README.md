@@ -1,2 +1,2 @@
 # DecifeRx
-Optical Character Recognition with Domain specific knowledge of Phamacy to diitalise han written doctors' prescription 
+Optical Character Recognition with Domain specific knowledge of Phamacy to digitalise hand written doctors' prescription 
