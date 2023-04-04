@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='ISO-8859-1' ?>
+<!DOCTYPE map
+  PUBLIC "-//Sun Microsystems Inc.//DTD JavaHelp Map Version 1.0//EN"
+         "http://java.sun.com/products/javahelp/map_1_0.dtd">
+
+<map version="1.0">
+    <mapID target="topicimage" url="images/topicimage.gif" >
+
+	<mapID target="Overview" url="Overview.html" />
+	<mapID target="NeuralNetworksBasics" url="NeuralNetworksBasics.html" />
+
+    <mapID target="Adaline" url="Adaline.html" />
+    <mapID target="Perceptron" url="Perceptron.html" />
+    <mapID target="MultiLayerPerceptron" url="MultiLayerPerceptron.html" />
+    <mapID target="Hebbian" url="Hebbian.html" />
+    <mapID target="MaxNet" url="MaxNet.html" />
+    <mapID target="Hopfield" url="Hopfield.html" />
+    <mapID target="UsingInJava" url="UsingInJava.html" />
+    <mapID target="BasicClasses" url="BasicClasses.html" />
+    <mapID target="LearningRules" url="LearningRules.html" />
+    <mapID target="ImageRecognition" url="ImageRecognition.html" />
+    <mapID target="Support" url="Support.html" />
+    <mapID target="WebLinks" url="WebLinks.html" />
+    <mapID target="License" url="License.html" />
+</map>

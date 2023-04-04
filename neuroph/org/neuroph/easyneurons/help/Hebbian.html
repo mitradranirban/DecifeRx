@@ -1,0 +1,84 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Hebbian Network</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+<body style="font-family:Tahoma;font-size:11px;">
+    <h2>HEBBIAN NETWORK</h2>
+    <p>Supervised and unsupervised Hebbian networks
+      are feedforward networks that use  Hebbian learning rule. From the point of
+      view of artificial neural networks, Hebb's principle can be described as a
+      method of determining how to alter the weights between  neurons based on their activation. The
+      weight between two neurons will increase if the two neurons activate
+      simultaneously,and it is reduced if they activate separately. [<a href="http://en.wikipedia.org/wiki/Hebbian_theory.htm" target="_blank">http://en.wikipedia.org/wiki/Hebbian_theory.htm</a>] </p>
+    <h3>Supervised Hebbian</h3>
+    <p>To create and train Supervised Hebbian neural
+      network with easyNeurons<i> </i>do the following:</p>
+    <ol>
+      <li >Choose Supervised Hebbian architecture (in main menu
+        choose Networks&gt;<b><i> </i></b>Supervised Hebbian)</li>
+      <li >Enter architecture specific parameters
+        (num of neurons)</li>
+      <li >Create training set</li>
+      <li >Set training parameters and start
+        training</li>
+      <li >Test network&nbsp;</li>
+    </ol>
+    <p><strong>Step 1.</strong> To create Supervised
+      Hebbian network, in main menu click <b>Networks &gt; Supervised Hebbian</b>&nbsp;&nbsp; </p>
+    <p>&nbsp;<img border="0" width="311" height="307"
+id="Picture 61" src="images/image083.jpg" /></p>
+    <p><strong>&nbsp;Step 2.</strong> Enter number of
+      neurons in input and output layer, choose <b>Ramp</b> transfer function as
+      shown on picture below and click <b>Create</b> button.</p>
+    <p>&nbsp;<img border="0" width="223" height="174"
+id="Picture 62" src="images/image084.jpg" /></p>
+    <p>&nbsp;This will create the Supervised Hebbian
+      neural network with two neurons in input, and one in output layer. </p>
+    <p>&nbsp;<img border="0" width="805" height="397"
+id="Picture 63" src="images/image085.jpg" /></p>
+    <p>&nbsp;Now
+      we shall train this network to learn logical OR function. First we have to create the <i>training
+        set </i>according to OR truth
+      table, and we will use supervised learning method.</p>
+    <p>&nbsp;<strong>Step 3.</strong>&nbsp; In main menu click <b>Training
+      &gt; New Training Set</b> to open training set training set wizard</p>
+    <p>&nbsp;<img border="0" width="451" height="230"
+id="Picture 64" src="images/image004.jpg" /></p>
+    <p>Enter training set name, number of inputs,
+      number of outputs as shown on picture below and click <b>Create</b> button.</p>
+    <p><img border="0" width="216" height="195"
+id="Picture 65" src="images/image086.jpg" /></p>
+    <p>Then create training set by entering <b>training
+      elements</b> as input and desired output values of neurons in input and output
+      layer. Use <b>Add row</b> button to add new elements or press Enter, and
+      click <b>OK</b> button when finished.</p>
+    <p><img border="0" width="462" height="241"
+id="Picture 66" src="images/image087.jpg" /></p>
+    <p><strong>Step 4.</strong> To start network
+      training procedure, in network window select training set from drop down list
+      and click <b>Train</b> button. </p>
+    <p><img border="0" width="664" height="183"
+id="Picture 67" src="images/image088.jpg" /></p>
+    <p>In <b>Set Learning parameters </b>dialog
+      use default learning parameters, and just click the <b>Train</b> button.</p>
+    <p><img border="0" width="229" height="219"
+id="Picture 68" src="images/image089.jpg" /></p>
+    <p>When the Total Net Error is zero, the
+      training is complete.</p>
+    <p><img border="0" width="218" height="154"
+id="Picture 69" src="images/image090.jpg" /></p>
+    <p><b>Step 5.</b> After the training is complete, you
+      can test network by using <b>Set Input</b> button. This opens <b>Set Network
+        Input</b> dialog in which you can enter input values for network separated
+      with white space.</p>
+    <p><img border="0" width="366" height="123"
+id="Picture 70" src="images/image091.jpg" /></p>
+    <p>The result of network test is shown on
+      picture below. Network learned logical OR function,so the value of output neuron
+      is 1. Test to see how the network behaves for other inputs. </p>
+    <p><img border="0" width="308" height="208"
+id="Picture 71" src="images/image092.jpg" /></p>
+</body>
+</html>

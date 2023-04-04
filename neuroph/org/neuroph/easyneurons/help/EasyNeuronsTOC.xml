@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='ISO-8859-1'  ?>
+<!DOCTYPE toc
+  PUBLIC 
+  "-//Sun Microsystems Inc.//DTD 
+  JavaHelp TOC Version 1.0//EN"
+  "http://java.sun.com/products/javahelp/toc_1_0.dtd">
+
+<toc version="1.0">
+
+<tocitem text="Overview"  target="Overview" image="topicimage"/>
+<tocitem text="Neural Network Basics"  target="NeuralNetworksBasics" image="topicimage"/>
+
+ <tocitem text="Creating and training NNets">
+   <tocitem text="Adaline"  target="Adaline" image="topicimage"/>
+   <tocitem text="Perceptron" target="Perceptron" image="topicimage"/>
+   <tocitem text="Multi Layer Perceptron" target="MultiLayerPerceptron" image="topicimage"/>
+   <tocitem text="Hebbian" target="Hebbian" image="topicimage"/>
+   <tocitem text="MaxNet" target="MaxNet" image="topicimage"/>
+   <tocitem text="Hopfield" target="Hopfield" image="topicimage"/>
+ </tocitem>
+
+ <tocitem text="Neuroph Framework">
+   <tocitem text="Basic Classes"  target="BasicClasses" image="topicimage"/>
+   <tocitem text="Using NNets in Java Code" target="UsingInJava" image="topicimage"/>
+ </tocitem>
+
+<tocitem text="Image Recognition HOWTO"  target="ImageRecognition" image="topicimage"/>
+
+<tocitem text="Support" target="Support" image="topicimage"/>
+<tocitem text="Web Links" target="WebLinks" image="topicimage"/>
+<tocitem text="License" target="License" image="topicimage"/>
+
+ </toc>
